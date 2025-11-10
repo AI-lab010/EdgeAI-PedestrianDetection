@@ -1,0 +1,19 @@
+path: /content  # dataset root dir
+train:
+  - Dataset-2/D2/images/train  # train images (relative to 'path') 168 images
+  - Dataset-3/D3/images/train  # train images (relative to 'path') 150 images
+  - Dataset-4/D4/images/train  # train images (relative to 'path') 3668 images
+  - Dataset-5/D5/images/train  # train images (relative to 'path') 140 background images
+val: 
+  - Dataset-2/D2/images/valid  # valid images (relative to 'path') 16 images
+  - Dataset-3/D3/images/valid  # valid images (relative to 'path') 20 images
+  - Dataset-4/D4/images/valid  # valid images (relative to 'path') 459 images
+
+test:
+  - Dataset-2/D2/images/test  # test images (relative to 'path') 8 images
+  - Dataset-3/D3/images/test  # test images (relative to 'path') 10 images
+  - Dataset-4/D4/images/test  # test images (relative to 'path') 458 images
+
+# Classes
+names:
+  0: Pedestrian
