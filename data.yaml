@@ -1,4 +1,4 @@
-path: /content  # dataset root dir
+path:   # dataset root dir
 train:
   - Dataset-2/D2/images/train  # train images (relative to 'path') 168 images
   - Dataset-3/D3/images/train  # train images (relative to 'path') 150 images
@@ -17,3 +17,4 @@ test:
 # Classes
 names:
   0: Pedestrian
+
